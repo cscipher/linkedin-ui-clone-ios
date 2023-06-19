@@ -30,7 +30,7 @@ struct SearchBar: View {
                     }.padding()
                 }
             
-            Image(systemName: "ellipses.bubble.fill")
+            Image(systemName: "ellipsis.message.fill")
                 .resizable()
                 .foregroundColor(.gray)
                 .aspectRatio(contentMode: .fit)

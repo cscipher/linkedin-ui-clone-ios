@@ -17,6 +17,9 @@
 		DFD6E08C2A4039DB001F2A72 /* NewConnectionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E08B2A4039DB001F2A72 /* NewConnectionTile.swift */; };
 		DFD6E08E2A403F76001F2A72 /* MyNetworksPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E08D2A403F76001F2A72 /* MyNetworksPage.swift */; };
 		DFD6E0912A404125001F2A72 /* dummy_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0902A404125001F2A72 /* dummy_data.swift */; };
+		DFD6E0952A405254001F2A72 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0942A405254001F2A72 /* PostCard.swift */; };
+		DFD6E0972A40573A001F2A72 /* PostInteractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0962A40573A001F2A72 /* PostInteractionRow.swift */; };
+		DFD6E0992A40582C001F2A72 /* FeedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0982A40582C001F2A72 /* FeedPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		DFD6E08B2A4039DB001F2A72 /* NewConnectionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConnectionTile.swift; sourceTree = "<group>"; };
 		DFD6E08D2A403F76001F2A72 /* MyNetworksPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworksPage.swift; sourceTree = "<group>"; };
 		DFD6E0902A404125001F2A72 /* dummy_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy_data.swift; sourceTree = "<group>"; };
+		DFD6E0942A405254001F2A72 /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		DFD6E0962A40573A001F2A72 /* PostInteractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInteractionRow.swift; sourceTree = "<group>"; };
+		DFD6E0982A40582C001F2A72 /* FeedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				DFD6E08D2A403F76001F2A72 /* MyNetworksPage.swift */,
+				DFD6E0982A40582C001F2A72 /* FeedPage.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -115,6 +122,8 @@
 			children = (
 				DFD6E0812A403411001F2A72 /* SearchBar.swift */,
 				DFD6E08B2A4039DB001F2A72 /* NewConnectionTile.swift */,
+				DFD6E0942A405254001F2A72 /* PostCard.swift */,
+				DFD6E0962A40573A001F2A72 /* PostInteractionRow.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -198,9 +207,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFD6E0912A404125001F2A72 /* dummy_data.swift in Sources */,
+				DFD6E0972A40573A001F2A72 /* PostInteractionRow.swift in Sources */,
+				DFD6E0992A40582C001F2A72 /* FeedPage.swift in Sources */,
 				DF8BDDDB2A064B6A009B1F26 /* ContentView.swift in Sources */,
 				DFD6E08E2A403F76001F2A72 /* MyNetworksPage.swift in Sources */,
 				DF8BDDD92A064B6A009B1F26 /* LinkedInCloneApp.swift in Sources */,
+				DFD6E0952A405254001F2A72 /* PostCard.swift in Sources */,
 				DFD6E08C2A4039DB001F2A72 /* NewConnectionTile.swift in Sources */,
 				DFD6E0822A403411001F2A72 /* SearchBar.swift in Sources */,
 				DFD6E0862A4038C0001F2A72 /* PostCardModel.swift in Sources */,
