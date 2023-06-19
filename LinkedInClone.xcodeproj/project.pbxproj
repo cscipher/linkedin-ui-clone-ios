@@ -20,6 +20,7 @@
 		DFD6E0952A405254001F2A72 /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0942A405254001F2A72 /* PostCard.swift */; };
 		DFD6E0972A40573A001F2A72 /* PostInteractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0962A40573A001F2A72 /* PostInteractionRow.swift */; };
 		DFD6E0992A40582C001F2A72 /* FeedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0982A40582C001F2A72 /* FeedPage.swift */; };
+		DFD6E09B2A4061E8001F2A72 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E09A2A4061E8001F2A72 /* Dashboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		DFD6E0942A405254001F2A72 /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
 		DFD6E0962A40573A001F2A72 /* PostInteractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostInteractionRow.swift; sourceTree = "<group>"; };
 		DFD6E0982A40582C001F2A72 /* FeedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPage.swift; sourceTree = "<group>"; };
+		DFD6E09A2A4061E8001F2A72 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				DFD6E08D2A403F76001F2A72 /* MyNetworksPage.swift */,
 				DFD6E0982A40582C001F2A72 /* FeedPage.swift */,
+				DFD6E09A2A4061E8001F2A72 /* Dashboard.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				DFD6E08C2A4039DB001F2A72 /* NewConnectionTile.swift in Sources */,
 				DFD6E0822A403411001F2A72 /* SearchBar.swift in Sources */,
 				DFD6E0862A4038C0001F2A72 /* PostCardModel.swift in Sources */,
+				DFD6E09B2A4061E8001F2A72 /* Dashboard.swift in Sources */,
 				DFD6E0882A4038DD001F2A72 /* NewConnectionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

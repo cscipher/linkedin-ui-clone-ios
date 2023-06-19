@@ -39,11 +39,13 @@ struct FeedPage: View {
             .font(.subheadline)
             .padding(.horizontal)
             
-            Rectangle()
-                .frame(height: 10)
-                .foregroundColor(.gray.opacity(0.4))
             
             ScrollView(.vertical, showsIndicators: false) {
+                Rectangle()
+                    .frame(height: 10)
+                    .foregroundColor(.gray.opacity(0.4))
+                
+                
                 ForEach(listOfPosts, id: \.id) {post in
                     PostCard(postCardModel: post)
                     Rectangle()
