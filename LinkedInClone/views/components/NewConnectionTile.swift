@@ -15,7 +15,7 @@ struct NewConnectionTile: View {
             AsyncImage(url: URL(string: newConnectionModel.dpURL))
                 .frame(width: 60, height: 60)
                 .clipShape(Circle())
-        
+            
             VStack(alignment: .leading) {
                 Text(newConnectionModel.connectionName)
                     .font(.system(size: 20,weight: .medium))
@@ -29,7 +29,7 @@ struct NewConnectionTile: View {
                         .font(.system(size: 12))
                         .foregroundColor(.gray)
                     
-            
+                    
                     Text("\(newConnectionModel.mutual) mutual connections")
                         .foregroundColor(.gray)
                         .font(.system(size: 12))
@@ -46,19 +46,12 @@ struct NewConnectionTile: View {
                 .font(.system(size: 30))
                 .foregroundColor(.blue.opacity(0.8))
             
-        }.padding(.horizontal)
-            .frame(width: .infinity)
+        }.frame(width: .infinity)
     }
 }
 
 struct NewConnectionTile_Previews: PreviewProvider {
     static var previews: some View {
-        NewConnectionTile(
-            newConnectionModel: NewConnectionModel(id: 1,
-                                                   connectionName: "Cipher",
-                                                   position: "SDE-1 @ Smallcase",
-                                                   mutual: 23,
-                                                   dpURL: "Https://picsum.photos/500")
-        )
+        NewConnectionTile(newConnectionModel: listOfConnections.first!)
     }
 }

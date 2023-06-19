@@ -11,6 +11,12 @@
 		DF8BDDDB2A064B6A009B1F26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8BDDDA2A064B6A009B1F26 /* ContentView.swift */; };
 		DF8BDDDD2A064B6B009B1F26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8BDDDC2A064B6B009B1F26 /* Assets.xcassets */; };
 		DF8BDDE12A064B6B009B1F26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8BDDE02A064B6B009B1F26 /* Preview Assets.xcassets */; };
+		DFD6E0822A403411001F2A72 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0812A403411001F2A72 /* SearchBar.swift */; };
+		DFD6E0862A4038C0001F2A72 /* PostCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0852A4038C0001F2A72 /* PostCardModel.swift */; };
+		DFD6E0882A4038DD001F2A72 /* NewConnectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0872A4038DD001F2A72 /* NewConnectionModel.swift */; };
+		DFD6E08C2A4039DB001F2A72 /* NewConnectionTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E08B2A4039DB001F2A72 /* NewConnectionTile.swift */; };
+		DFD6E08E2A403F76001F2A72 /* MyNetworksPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E08D2A403F76001F2A72 /* MyNetworksPage.swift */; };
+		DFD6E0912A404125001F2A72 /* dummy_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD6E0902A404125001F2A72 /* dummy_data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		DF8BDDDC2A064B6B009B1F26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF8BDDDE2A064B6B009B1F26 /* LinkedInClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LinkedInClone.entitlements; sourceTree = "<group>"; };
 		DF8BDDE02A064B6B009B1F26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFD6E0812A403411001F2A72 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		DFD6E0852A4038C0001F2A72 /* PostCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardModel.swift; sourceTree = "<group>"; };
+		DFD6E0872A4038DD001F2A72 /* NewConnectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConnectionModel.swift; sourceTree = "<group>"; };
+		DFD6E08B2A4039DB001F2A72 /* NewConnectionTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConnectionTile.swift; sourceTree = "<group>"; };
+		DFD6E08D2A403F76001F2A72 /* MyNetworksPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworksPage.swift; sourceTree = "<group>"; };
+		DFD6E0902A404125001F2A72 /* dummy_data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy_data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,9 @@
 		DF8BDDD72A064B6A009B1F26 /* LinkedInClone */ = {
 			isa = PBXGroup;
 			children = (
+				DFD6E08F2A404115001F2A72 /* dummy_data */,
+				DFD6E0842A4038AB001F2A72 /* models */,
+				DFD6E0802A4033F6001F2A72 /* views */,
 				DF8BDDD82A064B6A009B1F26 /* LinkedInCloneApp.swift */,
 				DF8BDDDA2A064B6A009B1F26 /* ContentView.swift */,
 				DF8BDDDC2A064B6B009B1F26 /* Assets.xcassets */,
@@ -67,6 +82,49 @@
 				DF8BDDE02A064B6B009B1F26 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFD6E0802A4033F6001F2A72 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DFD6E08A2A4039C2001F2A72 /* components */,
+				DFD6E0892A4039B8001F2A72 /* pages */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DFD6E0842A4038AB001F2A72 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DFD6E0852A4038C0001F2A72 /* PostCardModel.swift */,
+				DFD6E0872A4038DD001F2A72 /* NewConnectionModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		DFD6E0892A4039B8001F2A72 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				DFD6E08D2A403F76001F2A72 /* MyNetworksPage.swift */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		DFD6E08A2A4039C2001F2A72 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				DFD6E0812A403411001F2A72 /* SearchBar.swift */,
+				DFD6E08B2A4039DB001F2A72 /* NewConnectionTile.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		DFD6E08F2A404115001F2A72 /* dummy_data */ = {
+			isa = PBXGroup;
+			children = (
+				DFD6E0902A404125001F2A72 /* dummy_data.swift */,
+			);
+			path = dummy_data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD6E0912A404125001F2A72 /* dummy_data.swift in Sources */,
 				DF8BDDDB2A064B6A009B1F26 /* ContentView.swift in Sources */,
+				DFD6E08E2A403F76001F2A72 /* MyNetworksPage.swift in Sources */,
 				DF8BDDD92A064B6A009B1F26 /* LinkedInCloneApp.swift in Sources */,
+				DFD6E08C2A4039DB001F2A72 /* NewConnectionTile.swift in Sources */,
+				DFD6E0822A403411001F2A72 /* SearchBar.swift in Sources */,
+				DFD6E0862A4038C0001F2A72 /* PostCardModel.swift in Sources */,
+				DFD6E0882A4038DD001F2A72 /* NewConnectionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
